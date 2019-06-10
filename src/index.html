@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <script type="text/javascript">
+      
+       "<%=htmlWebpackPlugin.files.chunks.index%>"
+    </script>
+  
+    
 </head>
 <body>
     <div><span>test</span></div>
     <%= htmlWebpackPlugin.options.date %>
 
-    <% for (var key in htmlWebpackPlugin.files ) { %>
+   <!--  <% for (var key in htmlWebpackPlugin.files ) { %>
        <%= key %> : <%=JSON.stringify(htmlWebpackPlugin.options[key]) %>
     <% } %>
 
     <% for (var key in htmlWebpackPlugin.options ) { %>
         <%= key %> : <%=JSON.stringify(htmlWebpackPlugin.options[key]) %>
-    <% } %>
+    <% } %> -->
+
+    <!--我是注释-->
     
 </body>
 </html>

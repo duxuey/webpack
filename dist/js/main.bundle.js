@@ -3827,6 +3827,17 @@ eval("__webpack_require__(/*! ./modules/es6.symbol */ \"./node_modules/core-js/m
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js!./src/components/layer/layer.less":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js!./src/components/layer/layer.less ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".flex {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n}\\n.layer {\\n  width: 600px;\\n  height: 200px;\\n  background-color: green;\\n}\\n.layer · > div {\\n  width: 400px;\\n  height: 100px;\\n  background-color: red;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/components/layer/layer.less?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src!./node_modules/less-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/common.css":
 /*!**************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src!./src/css/common.css ***!
@@ -3914,7 +3925,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n//import tpl from './layer.html';\nfunction layer() {\n  return {\n    name: 'layer',\n    tpl: tpl\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (layer);\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layer.less */ \"./src/components/layer/layer.less\");\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_layer_less__WEBPACK_IMPORTED_MODULE_0__);\n//import tpl from './layer.html';\n\n\nfunction layer() {\n  return {\n    name: 'layer',\n    tpl: tpl\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (layer);\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
+
+/***/ }),
+
+/***/ "./src/components/layer/layer.less":
+/*!*****************************************!*\
+  !*** ./src/components/layer/layer.less ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src!../../../node_modules/less-loader/dist/cjs.js!./layer.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js!./node_modules/less-loader/dist/cjs.js!./src/components/layer/layer.less\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/components/layer/layer.less?");
 
 /***/ }),
 

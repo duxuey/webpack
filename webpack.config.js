@@ -96,6 +96,15 @@ module.exports = {
          'postcss-loader'
         ]  
       },
+      {
+        test: /\.less$/,
+        loader: 'style-loader!css-loader!postcss-loader!less-loader'//注意：postcss loader 要放在style和css loader 之前，less loader之后
+        //css loader有必要加importLoaders，less loader 可以不用加 就会被浏览器解析
+      },
+      {
+        test: /\.sass$/,
+        loader: 'style-loader!css-loader!postcss-loader!sass-loader'
+      },
       { 
         test: /\.ts$/, 
         use: ['ts-loader']

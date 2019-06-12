@@ -92,6 +92,16 @@ module.exports = {
         test: /\.tpl$/,
         use: 'ejs-loader'
       },
+      {
+        test: /\.(png|jpg|git)$/i,
+        use: [
+           {
+             loader: 'file-loader',
+             options: {name: 'assets/[name]-[hash:5].[ext]',limit: 20000}
+           }
+        ]
+        
+      },
       { 
         test: /\.css$/, 
         //style-loader!css-loader  style-loader要在css-loader前面

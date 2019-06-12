@@ -3840,23 +3840,23 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/c
 
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/common.css":
 /*!**************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src!./src/css/common.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./src/css/common.css ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js??ref--4-1!../../node_modules/postcss-loader/src!./flex.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/flex.css\"), \"\");\n\n// Module\nexports.push([module.i, \"html, body{\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n    background-color: red;\\r\\n}\\r\\n\\r\\nul, li{\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n    list-style: none;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/common.css?./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../node_modules/postcss-loader/src!./flex.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/flex.css\"), \"\");\n\n// Module\nexports.push([module.i, \"html, body{\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n    background-color: red;\\r\\n}\\r\\n\\r\\nul, li{\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n    list-style: none;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/common.css?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src");
 
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/flex.css":
 /*!************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src!./src/css/flex.css ***!
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./src/css/flex.css ***!
   \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\r\\n.flex-div{\\r\\n    display: -webkit-box;\\r\\n    display: -ms-flexbox;\\r\\n    display: flex;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/flex.css?./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\\r\\n.flex-div{\\r\\n    display: -webkit-box;\\r\\n    display: -ms-flexbox;\\r\\n    display: flex;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/flex.css?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src");
 
 /***/ }),
 
@@ -3913,7 +3913,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_layer_layer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/layer/layer.js */ \"./src/components/layer/layer.js\");\n\n\n\nvar App = function App() {\n  var NUM = 1;\n  alert(NUM);\n  console.log(_components_layer_layer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n};\n\nnew App();\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/common.css */ \"./src/css/common.css\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_common_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_layer_layer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/layer/layer.js */ \"./src/components/layer/layer.js\");\n\n\n\nvar App = function App() {\n  var dom = document.getElementById('app');\n  var layer = new _components_layer_layer_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"](); //dom.innerHTML = layer.tpl;\n\n  dom.innerHTML = layer.ejsTpl({\n    name: 'John',\n    arr: ['apple', 'xiaomi', 'oppo'],\n    age: '9'\n  });\n};\n\nnew App();\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/components/layer/layer.html":
+/*!*****************************************!*\
+  !*** ./src/components/layer/layer.html ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<div class=\\\"layer flex-div\\\">\\r\\n    <div> this is A layerB</div>\\r\\n</div>\\r\\n\";\n\n//# sourceURL=webpack:///./src/components/layer/layer.html?");
 
 /***/ }),
 
@@ -3925,7 +3936,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layer.less */ \"./src/components/layer/layer.less\");\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_layer_less__WEBPACK_IMPORTED_MODULE_0__);\n//import tpl from './layer.html';\n\n\nfunction layer() {\n  return {\n    name: 'layer',\n    tpl: tpl\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (layer);\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _layer_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layer.html */ \"./src/components/layer/layer.html\");\n/* harmony import */ var _layer_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_layer_html__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _layer_tpl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layer.tpl */ \"./src/components/layer/layer.tpl\");\n/* harmony import */ var _layer_tpl__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layer_tpl__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layer.less */ \"./src/components/layer/layer.less\");\n/* harmony import */ var _layer_less__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layer_less__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction layer() {\n  return {\n    name: 'layer',\n    tpl: _layer_html__WEBPACK_IMPORTED_MODULE_0___default.a,\n    ejsTpl: _layer_tpl__WEBPACK_IMPORTED_MODULE_1___default.a\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (layer);\n\n//# sourceURL=webpack:///./src/components/layer/layer.js?");
 
 /***/ }),
 
@@ -3940,6 +3951,17 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/
 
 /***/ }),
 
+/***/ "./src/components/layer/layer.tpl":
+/*!****************************************!*\
+  !*** ./src/components/layer/layer.tpl ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = function(obj) {\nobj || (obj = {});\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\nwith (obj) {\n__p += '<div class=\"layer\">\\r\\n    <div>this is A ' +\n((__t = ( name )) == null ? '' : __t) +\n' layer</div>\\r\\n\\r\\n    ';\n for (var i=0; i< arr.length; i++) { ;\n__p += '\\r\\n        ' +\n((__t = ( arr[i] )) == null ? '' : __t) +\n'\\r\\n    ';\n } ;\n__p += '\\r\\n\\r\\n    <div>' +\n((__t = ( age )) == null ? '' : __t) +\n'</div>\\r\\n</div>';\n\n}\nreturn __p\n}\n\n//# sourceURL=webpack:///./src/components/layer/layer.tpl?");
+
+/***/ }),
+
 /***/ "./src/css/common.css":
 /*!****************************!*\
   !*** ./src/css/common.css ***!
@@ -3947,7 +3969,7 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--4-1!../../node_modules/postcss-loader/src!./common.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/common.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/common.css?");
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../node_modules/postcss-loader/src!./common.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/css/common.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/common.css?");
 
 /***/ }),
 

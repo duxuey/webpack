@@ -78,12 +78,20 @@ module.exports = {
     new htmlWebpackPlugin({
       filename: 'index.html',
       template: './src/index.html',
-      inject: 'body'
+      //inject: 'body'
     })
   ],
   mode: 'development',
   module: {
     rules: [
+      {
+        test: /\.html$/,
+        use: 'html-loader'
+      },
+      {
+        test: /\.tpl$/,
+        use: 'ejs-loader'
+      },
       { 
         test: /\.css$/, 
         //style-loader!css-loader  style-loader要在css-loader前面

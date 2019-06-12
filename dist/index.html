@@ -4,64 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack App</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
 
     <script type="text/javascript">
-      
-       ""
+       "<%=htmlWebpackPlugin.files.chunks.index%>"
     </script>
   
     
 </head>
 <body>
-    <div><span>test</span></div>
-    
+    <div id="app">
 
-   <!--  
-       publicPath : 
-    
-       chunks : "all"
-    
-       js : 
-    
-       css : 
-    
-       manifest : 
-    
+    </div>
+    <!-- <%= htmlWebpackPlugin.options.date %> -->
 
-    
-        template : "D:\\work\\webpack-demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\work\\webpack-demo\\src\\index.html"
-    
-        templateParameters : 
-    
-        filename : "index.html"
-    
-        hash : false
-    
-        inject : "body"
-    
-        compile : true
-    
-        favicon : false
-    
-        minify : false
-    
-        cache : true
-    
-        showErrors : true
-    
-        chunks : "all"
-    
-        excludeChunks : []
-    
-        chunksSortMode : "auto"
-    
-        meta : {}
-    
-        title : "Webpack App"
-    
-        xhtml : false
-     -->
+   <!--  <% for (var key in htmlWebpackPlugin.files ) { %>
+       <%= key %> : <%=JSON.stringify(htmlWebpackPlugin.options[key]) %>
+    <% } %>
+
+    <% for (var key in htmlWebpackPlugin.options ) { %>
+        <%= key %> : <%=JSON.stringify(htmlWebpackPlugin.options[key]) %>
+    <% } %> -->
 
     <!--我是注释-->
     

@@ -7,15 +7,16 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 
     <script type="text/javascript">
-      
        "<%=htmlWebpackPlugin.files.chunks.index%>"
     </script>
   
     
 </head>
 <body>
-    <div><span>test</span></div>
-    <%= htmlWebpackPlugin.options.date %>
+    <div id="app">
+
+    </div>
+    <!-- <%= htmlWebpackPlugin.options.date %> -->
 
    <!--  <% for (var key in htmlWebpackPlugin.files ) { %>
        <%= key %> : <%=JSON.stringify(htmlWebpackPlugin.options[key]) %>

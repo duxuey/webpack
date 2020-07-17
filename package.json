@@ -34,7 +34,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "html-webpack-plugin": "^3.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "typescript": "^3.4.5",
     "webpack-dev-server": "^3.4.1"
   },
